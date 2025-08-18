@@ -8,13 +8,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
-    </ItemGroup>
-
-    <ItemGroup>
       <_ContentIncludedByDefault Remove="Controllers\obj\Controllers.csproj.nuget.dgspec.json" />
       <_ContentIncludedByDefault Remove="Controllers\obj\project.assets.json" />
       <_ContentIncludedByDefault Remove="Controllers\obj\project.packagespec.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
     </ItemGroup>
 
 </Project>
