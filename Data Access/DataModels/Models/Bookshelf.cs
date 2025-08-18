@@ -1,8 +1,8 @@
 namespace Data_Access.DataModels.Models;
 
-public class Bookchself
+public class Bookshelf
 {
-    public Bookchself()
+    public Bookshelf()
     {
         
     }

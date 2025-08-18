@@ -25,5 +25,5 @@ public class Book
     
     public Guid? BookShelfId { get; set; }
     
-    public Bookchself Bookshelf { get; set; }
+    public Bookshelf Bookshelf { get; set; }
 }
