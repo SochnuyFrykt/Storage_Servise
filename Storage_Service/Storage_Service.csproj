@@ -12,7 +12,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <_ContentIncludedByDefault Remove="Controllers\obj\Controllers.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Controllers\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Controllers\obj\project.packagespec.json" />
     </ItemGroup>
 
 </Project>
