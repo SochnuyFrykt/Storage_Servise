@@ -13,5 +13,5 @@ public class Bookshelf
     
     public int CreatedOn { get; set; } = DateTime.UtcNow.Year;
     
-    public IEnumerable<Book> Books { get; set; }
+    public IEnumerable<Book>? Books { get; set; }
 }
