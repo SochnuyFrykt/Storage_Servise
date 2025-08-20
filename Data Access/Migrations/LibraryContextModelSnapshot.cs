@@ -62,7 +62,7 @@ namespace Data_Access.Migrations
 
                     b.HasIndex("BookShelfId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("Data_Access.DataModels.Models.Bookshelf", b =>
@@ -80,7 +80,7 @@ namespace Data_Access.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Bookshelfs");
+                    b.ToTable("Bookshelfs", (string)null);
                 });
 
             modelBuilder.Entity("Data_Access.DataModels.Models.Book", b =>

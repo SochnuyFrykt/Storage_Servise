@@ -1,4 +1,6 @@
 using Data_Access;
+using Data_Access.DataModels.Models;
+using Data_Access.Sevices;
 using Microsoft.EntityFrameworkCore;
 
 namespace Storage_Service;
@@ -27,6 +29,8 @@ public class Program
             options.Configuration = redisConnectionString;
             options.InstanceName = "BookApi_";
         });
+        builder.Services.AddScoped<IObjectService<Book>, BookService>();
+        builder.Services.AddScoped<IObjectService<Bookshelf>, BookshelfService>();
         
         var app = builder.Build();
 
