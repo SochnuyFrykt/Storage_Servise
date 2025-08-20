@@ -1,3 +1,4 @@
+using Controllers;
 using Data_Access;
 using Data_Access.DataModels.Models;
 using Data_Access.Sevices;
@@ -16,8 +17,9 @@ public class Program
         var pgConnectionString = builder.Configuration.GetConnectionString("PostgreSql");
         var redisConnectionString = builder.Configuration.GetConnectionString("Redis");
 
-        builder.Services.AddControllers();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+        builder.Services.AddControllers()
+            .AddApplicationPart(typeof(BookController).Assembly);
+        
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 

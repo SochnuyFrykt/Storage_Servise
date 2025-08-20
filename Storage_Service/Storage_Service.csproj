@@ -24,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Controllers\Controllers.csproj" />
       <ProjectReference Include="..\Data Access\Data Access.csproj" />
     </ItemGroup>
 
