@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage_Service", "Storage_Service.csproj", "{E97612F7-22B4-44E2-9298-3339B40CFDE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Access", "..\Data Access\Data Access.csproj", "{E67FEA6D-46F1-42D6-9083-9270CB7ADDC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "..\Controllers\Controllers.csproj", "{F39A59A1-139C-418C-B5E8-02E11E1B8D22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{E97612F7-22B4-44E2-9298-3339B40CFDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E97612F7-22B4-44E2-9298-3339B40CFDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E97612F7-22B4-44E2-9298-3339B40CFDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67FEA6D-46F1-42D6-9083-9270CB7ADDC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67FEA6D-46F1-42D6-9083-9270CB7ADDC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67FEA6D-46F1-42D6-9083-9270CB7ADDC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67FEA6D-46F1-42D6-9083-9270CB7ADDC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39A59A1-139C-418C-B5E8-02E11E1B8D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39A59A1-139C-418C-B5E8-02E11E1B8D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39A59A1-139C-418C-B5E8-02E11E1B8D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39A59A1-139C-418C-B5E8-02E11E1B8D22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

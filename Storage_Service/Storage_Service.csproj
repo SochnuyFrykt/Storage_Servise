@@ -8,11 +8,24 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+      <_ContentIncludedByDefault Remove="Controllers\obj\Controllers.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Controllers\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Controllers\obj\project.packagespec.json" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.8">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.8" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Controllers\Controllers.csproj" />
+      <ProjectReference Include="..\Data Access\Data Access.csproj" />
     </ItemGroup>
 
 </Project>
